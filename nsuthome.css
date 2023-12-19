@@ -1,0 +1,360 @@
+body{
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 60px ;
+    background-color: #12486B;
+    color: white; 
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-options a{
+    margin-right: 50px;
+}
+/* .nav-options .first_option {
+    margin-left: 100px;
+} */
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+.nav-link::before {
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely within the link */
+    bottom: -2px; /* Adjust the value to control the distance of the underline from the text */
+    left: 0; /* Align the underline with the left edge of the link */
+    width: 0; /* Start with no width */
+    height: 2px; /* Set the height of the underline */
+    background-color: white; /* Customize the color of the underline */
+    transition: width 0.3s ; /* Add a smooth transition effect */
+}
+
+.nav-link:hover::before {
+    width: 100%; /* Expand the width of the underline on hover */
+}
+
+#topslide {
+    margin-block-start: 0px;
+    height: 762px;
+    background-image: linear-gradient(rgba(9, 67, 81, 0.873),rgba(215, 201, 201, 0.3),rgba(9, 67, 81, 0.873)),url(http://nsut.ac.in/sites/default/files/2022-09/nsut%20green%20view.jpg);
+}
+
+#logo {
+    height: 78px;
+    width: 652px;
+    background-image: url(http://nsut.ac.in/sites/default/files/logo_nsut_0_0_0_0.png);
+    display: inline-block;
+    margin: 40px 0px -16px 132px;
+}
+
+#address {
+    margin: 2px 2px 2px 238px;
+    display: inline-block;
+
+}
+
+
+
+#upadd {
+    margin: 2px 2px -1px 2px;
+    color: white;
+    text-decoration: none;
+}
+
+#lowadd {
+    margin: 1px 2px 0px 2px;
+    color: white;
+}
+
+
+#welcome {
+    color: white;
+    margin: 247px 139px 1px 488px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#wel1 {
+    font-size: 4em;
+    margin: 0px 4px 0px 75px;
+    margin-left: 0px;
+}
+#wel1:hover{
+    color:white ;
+}
+
+#wel3 {
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#abouth1 {
+    margin: 80px 200px 0px 200px;
+}
+
+#aboutpara {
+    letter-spacing: 0.8px;
+    margin: 30px 200px 10px 200px;
+    font-size: 18px;
+}
+
+#abouth1 span {
+    color: #4c6f91;
+}
+
+.btn {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    margin: 7px 0px 100px 200px;
+    padding: 5px 1px;
+}
+.row{ display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+#first {
+    background-color: #12486B;
+    height: 400px;
+}
+
+.container {
+    display: inline-block;
+    height: 60px;
+    width: 314px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#campus {
+    background-color: #b3dcff;
+    margin: 50px 0px 0px 170px;
+}
+
+#ranking {
+    background-color: #ffeece;
+    margin: 50px 0px 0px 95px;
+}
+
+#vc {
+    background-color: #ffc5f8;
+    margin: 50px 170px 0px 95px;
+}
+
+.container1 {
+    background-color: white;
+    height: 150px;
+    width: 270px;
+}
+
+.container1 li a {
+    text-decoration: none;
+    color: #0071b3;
+}
+
+#campus1 {
+    display: inline-block;
+    margin: 0px 0px 0px 192px;
+}
+
+#ranking1 {
+    margin: 0px 0px 0px 139px;
+    display: inline-block;
+}
+
+#vc1 {
+    display: inline-block;
+    margin: 0px 0px 0px 139px;
+}
+
+.nsutb {
+    height: 600px;
+}
+
+.nsut {
+    border: 1px solid grey;
+    display: inline-block;
+    height: 230px;
+    width: 230px;
+    margin: 60px 0px 0px 120px;
+}
+
+#nsut2 {
+    margin: 60px 0px 0px 300px;
+}
+
+.nsutl {
+    border-top: none;
+    background-color: #eeffff;
+    display: inline-block;
+    height: 200px;
+    width: 230px;
+    margin: 0px 0px 0px 120px;
+    padding: 22px 10px;
+}
+
+#nsut2l {
+    margin: 0px 0px 0px 300px;
+}
+
+.nsutb a {
+    text-decoration: none;
+}
+
+.admissions {
+    color: white;
+    background-color: #12486B;
+    height: 1300px;
+}
+
+#adm {
+    text-align: center;
+    height: 110px;
+    padding-top: 30px;
+
+}
+
+.admission {
+    display: inline-block;
+    width: 380px;
+    height: 810px;
+}
+
+.admission h1 {
+    margin-left: 45px;
+}
+
+.admission li {
+    font-size: 20px;
+    padding: 34px;
+}
+
+#ad1 {
+    margin: 0px 0px 0px 80px;
+    vertical-align: top;
+}
+
+#ad2 {
+    margin: 0px 0px 0px 80px;
+    vertical-align: top;
+}
+
+#ad3 {
+    margin: 0px 0px 0px 80px;
+    vertical-align: top;
+}
+
+.admission li a {
+    color: white;
+    text-decoration: none;
+}
+
+#departments {
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.dep {
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+
+.dep h2 {
+    font-weight: lighter;
+}
+
+.dbtn {
+    letter-spacing: 2px;
+    height: 45px;
+    width: 140px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.dbtn:hover {
+    color: white;
+    background-color: black;
+}
+
+#faculty {
+    margin-left: 65px;
+}
+
+#department {
+    margin-left: 75px;
+}
+
+#center {
+    margin-left: 75px;
+}
+
+
+
+.lastslide {
+    background-color: #12486B;
+}
+
+.last {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px dashed #969696;
+    width: 300px;
+    height: 370px;
+    padding-right: 20px;
+}
+
+.last p a {
+    color: white;
+    text-decoration: none;
+}
+
+.last p{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #969696;
+}
+
+#quick {
+    margin: 50px 0px 30px 70px;
+    
+}
+
+#explore {
+    margin: 50px 0px 30px 30px;
+}
+
+#social {
+    margin: 50px 0px 30px 30px;
+}
+
+#netaji {
+    padding-top: 20px;
+    margin: 50px 0px 30px 30px;
+}

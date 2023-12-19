@@ -1,0 +1,326 @@
+.navbar {
+    height: 60px ;
+    background-color: #12486B;
+    color: white; 
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-options a{
+    margin-right: 50px;
+}
+/* .nav-options .first_option {
+    margin-left: 100px;
+} */
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+.nav-link::before {
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position the pseudo-element absolutely within the link */
+    bottom: -2px; /* Adjust the value to control the distance of the underline from the text */
+    left: 0; /* Align the underline with the left edge of the link */
+    width: 0; /* Start with no width */
+    height: 2px; /* Set the height of the underline */
+    background-color: white; /* Customize the color of the underline */
+    transition: width 0.3s ; /* Add a smooth transition effect */
+}
+
+.nav-link:hover::before {
+    width: 100%; /* Expand the width of the underline on hover */
+}
+.sub-header {
+    height: 120px;
+    background-color: #112B3C;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.nsut-logo {
+    margin-top: 10px;
+    /* margin-right: 20px; */
+}
+.location-class {
+    padding: 2em;
+    font-size: large;
+}
+.location {
+    color: aliceblue;
+    text-decoration: none;
+}
+.g20 {
+    margin-left: 50px;
+}
+
+.content-part1 {
+    background-color: rgb(0, 0, 0, 0.3);
+    margin-top: 50px;
+    height: 700px;
+    background-image: url(cseBack.jpg);
+}
+
+
+.heading { 
+    /* background-color: aqua; */
+    margin-left: 600px;
+    margin-bottom: 100px;
+    padding: 20px;
+    align-items: center;
+    width: 300px;
+}
+
+.heading a {
+    /* background-color: aqua; */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-decoration:dotted;
+}
+
+.about-it {
+    width: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 30px; */
+    margin-left: 200px;
+    font-size: larger;
+    font-style: oblique;
+    color: white;
+}
+
+.it-image {
+    /* background-color: aqua; */
+    padding: 50px;
+}
+
+
+
+.contact-part2 {
+    padding: 30px;
+    /* background-color: aqua; */
+    height: 600px;
+}
+.Contact {
+    background-color: rgb(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 400px;
+    
+}
+
+.head-contact { 
+    /* background-color:blueviolet; */
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    padding: 20px;
+    align-items: center;
+    width: 300px;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+.contact-details {
+    /* background-color: rgb(0, 0, 0, 0.3); */
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-box button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    background-color: lightyellow;
+}
+
+.btn-box button:hover{
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+}
+
+.btn-content {
+    padding: 20px;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.time-table {
+    background-color: rgb(0, 0, 0, 0.3);
+    padding-left: 20px;
+    border: 2px solid black;
+}
+.time-table a {
+    color: black;
+    text-decoration: none;
+}
+.lastslide {
+    background-color: #12486B;
+}
+
+.last {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px dashed #969696;
+    width: 300px;
+    height: 370px;
+    padding-right: 20px;
+}
+
+.last p a {
+    color: white;
+    text-decoration: none;
+}
+
+.last p{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #969696;
+}
+
+#quick {
+    margin: 50px 0px 30px 70px;
+    
+}
+
+#explore {
+    margin: 50px 0px 30px 30px;
+}
+
+#social {
+    margin: 50px 0px 30px 30px;
+}
+
+#netaji {
+    padding-top: 20px;
+    margin: 50px 0px 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Part10{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    padding-top: 50px;
+}
+
+.subPart-10{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)    ;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-subPart-10{
+    padding: 30px;
+    
+}
+.sub-subPart-10 h4{
+    /* margin-top: 2em; */
+    margin-bottom: 1em;
+}
+.sub-subPart-10 a{
+    display: block;
+    margin: 10px;
+}
+.sub-subPart-10 hr{
+    border: dotted;
+    color: gray
+}
+.sub-subPart-10 p{
+    margin-top: 1em;
+}
+.Links-sub-subPart-10{
+    padding-right: 5em  ;
+    border-right: dotted;
+}
+.Links-sub-subPart-10 a {
+    color: white;
+    text-decoration: none;
+}
+span{
+    color: #006FCE;
+}

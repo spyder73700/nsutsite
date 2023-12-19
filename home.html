@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Up</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- <div>
+
+        <form>
+            <div class="mb-6">
+            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required>
+            </div>
+            <div class="mb-6">
+            <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+            <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+            </div>
+            <div class="flex items-start mb-6">
+            <div class="flex items-center h-5">
+                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+            </div>
+            <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+            </div>
+            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+        </form>
+  
+    </div> -->
+    <nav>
+        <ul>
+            <li><a href="nsuthome.html">Home</li></a>
+            <li><a href="nsuthome.html">Login</li></a>
+        </ul>
+    </nav>
+
+    <h1>Login Page</h1>
+    <div class="container">
+        
+        <form name="myForm" onsubmit="return validateForm(event)" method="post">
+            <div class="formdesign" id="name">
+                Name : <input type="text" name="fname" required><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="email">
+                Email : <input type="email" name="femail" required><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="phone">
+                Phone : <input type="phone" name="fphone" required><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="pass">
+                Password : <input type="password" name="fpass" required><span class="formerror"></span>
+            </div>
+            <div class="formdesign" id="cpass">
+                Confirm Password : <input type="password" name="fcpass" required><span class="formerror"></span>
+            </div>
+            <input type="submit" class="btn" value="Submit" onclick="return validateForm">
+            <!-- <button type="button" class="btn" value="Submit" onclick="openpopup()">Submit</button> -->
+        </form>
+        <div class="popup" id="popup">
+            <img src="tick.png">
+            <h2>Thank You !</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button type="button" onclick="closepopup()" >OK</button>
+        </div>
+    </div>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
